@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #5B8C51;
-    --secondary: #EDDD5E;
+    --primary: #088187;
+    --secondary: #ef8126;
     --light: #F7F7F7;
-    --dark: #404A3D;
+    --dark: #111;
 }
 
 .back-to-top {
@@ -185,7 +185,7 @@
 }
 
 .page-header {
-    background: url(../img/meningitis.jpg) center center no-repeat;
+    background: url(../img/meningitis-p.jpg) center center no-repeat;
     background-size: cover;
     background-position: top;
 }
@@ -200,14 +200,25 @@
     color: var(--light);
 }
 
+/**team**/
+.icon{
+    height: 30px;
+    width: 30px;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+.icon:hover{
+    transform: translateY(-5px);
+}
+
 /**resources boxes**/
 .custom-div{
-    height: 550px;
     transition: 0.4s;
 }
 .custom-div:hover{
     transform: translateY(-5px);
 }
+
 
 
 /*** Section Title ***/
